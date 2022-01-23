@@ -57,7 +57,7 @@ export default function Login() {
 			<section className='container'>
 				<div>
 					<h1>Welcome</h1>
-					<span>Super amazing OAuth app</span>
+					<span>Super amazing app</span>
 					<span>{data.errorMessage}</span>
 					<div className='login-container'>
 						{data.isLoading ? (
